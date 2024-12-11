@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-with-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://html.hixstudio.net/educal/educal/assets/img/page-title/page-title-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.breadcrumb {
+    --bs-breadcrumb-divider-color: white;
+}
+
+@media (max-width: 768px) {
+    .category {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse .align-center {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+.align-center {
+    align-items: center;
+}
+
+.download-software {
+    background: linear-gradient(to left bottom, #ff7c54, #2b4eff 55%);
+}
+
+.span-bg-image {
+    background-image: url(https://html.hixstudio.net/educal/educal/assets/img/shape/yellow-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}

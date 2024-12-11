@@ -1,0 +1,1952 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educal – Online Learning and Education HTML5 Template</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="icon" href="images/favicon.png">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .swiper-slider-porsen {
+            background-image: linear-gradient(rgba(54, 85, 244, 0.8),
+                    rgba(54, 85, 344, 0.8)),
+                url(https://html.hixstudio.net/educal/educal/assets/img/testimonial/testimonial-bg.jpg);
+        }
+
+        .swiper-slide {
+            background-color: transparent;
+            padding-block: 100px;
+        }
+
+        .img {
+            /* border: 1px solid red; */
+            display: block;
+            margin: auto;
+        }
+
+        @media (max-width: 768px) {
+            .category {
+                display: none;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .navbar-collapse .align-center {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+            }
+        }
+
+        .align-center {
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header-with-banner">
+        <nav class="navbar navbar-expand-lg py-2" style="background-color: transparent;">
+            <div class="container">
+                <div class="d-flex">
+                    <a href="#">
+                        <img src="images/header logo.png" class="img-fluid" alt="">
+                    </a>
+                    <a href="course.html"><button
+                            class="category btn border-secondary rounded-0 border-top-0 border-end-0 border-bottom-0 ms-3">
+                            <img src="http://127.0.0.1:5502/images/dots-menu.png" class="img-fluid" alt=""> Category
+                        </button>
+                    </a>
+                </div>
+
+                <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                    <i class="fa fa-bars-staggered"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="nav navbar-nav ms-auto align-center">
+                        <li class="nav-item">
+                            <a href="home.html" class="nav-link active">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="course.html" class="nav-link">
+                                Course
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="blog.html" class="nav-link">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages.html" class="nav-link">
+                                Pages
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="signup.html" class="nav-link">
+                                <button class="btn btn-primary">Sign
+                                    up
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner-porsen">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 align-content-center">
+                        <h1 class="display-5 fw-bold">
+                            Launch your <br>
+                            Own <span class="span-bg-image">online</span> learning <br>
+                            Platform
+                        </h1>
+
+                        <div class="p-text">
+                            <p class="lead fw-bold m-0">
+                                Unlimited access to all 60+ instructors.
+                            </p>
+
+                            <p class="text-secondary">
+                                2 passes (with access to all classes) for $240
+                            </p>
+                        </div>
+
+                        <div class="form-text">
+                            <div class="form">
+                                <form action="">
+                                    <div class="input-group w-75 flex-nowrap">
+                                        <input type="text" class="form-control w-50 border-end-0 w-auto"
+                                            style="padding-block: 15px;" placeholder="What do you want to learn ?">
+                                        <button type="search" class="input-group-text bg-white"
+                                            style="cursor: pointer;">
+                                            <i class="fa-solid fa-magnifying-glass m-2"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                                <p class="text-secondary mt-2" style="font-size: 17px;">
+                                    You`re guaranteed to find something that`s right for you.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="banner-image w-100 d-flex justify-content-center align-items-center">
+                            <img src="https://html.hixstudio.net/educal/educal/assets/img/hero/hero-2/hero.png" class=""
+                                height="505" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services my-5 py-5">
+        <div class="container">
+            <div class="title text-center h1 text-capitalize fw-bold">
+                Why an <span class="span-bg-image">scholercity</span> out of <br> The ordinary
+            </div>
+            <p class="text-center text-secondary">
+                You don't have to struggle alone, you've got our assistance and help.
+            </p>
+
+            <div class="card-porsen">
+                <div class="row">
+                    <div class="col-lg-3 my-3">
+                        <div class="hover-card card-body bg-primary rounded-3 pt-4 pb-5 h-100">
+                            <div style="font-size: 50px;">
+                                <i class="fa-solid fa-graduation-cap text-white mb-4 ms-3"></i>
+                            </div>
+
+                            <p class="card-title text-white fw-bold h5 my-4 ms-3">
+                                4,000 <br>
+                                Online courses
+                            </p>
+
+                            <p class="card-text text-white mt-4 ms-3">
+                                Arse over tit morish wind up gormless butty.!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 my-3">
+                        <div class="hover-card card-body rounded-3 pt-4 pb-5 h-100" style="background-color: #DD246E;">
+                            <div style="font-size: 50px;">
+                                <img src="images/employment.png" class="img-fluid mb-4 ms-3" height="50px" width="50px"
+                                    alt="">
+                            </div>
+
+                            <p class="card-title text-white fw-bold h5 my-4 ms-3">
+                                Job placement <br>
+                                Support
+                            </p>
+
+                            <p class="card-text text-white mt-4 ms-3">
+                                Arse over tit morish wind up gormless butty.!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 my-3">
+                        <div class="hover-card card-body rounded-3 pt-4 pb-5 h-100" style="background-color: #8007E6;">
+                            <div style="font-size: 50px;">
+                                <img src="images/card3 image.png" class="img-fluid mb-4 ms-3" height="50px" width="50px"
+                                    alt="">
+                            </div>
+
+                            <p class="card-title text-white fw-bold h5 my-4 ms-3">
+                                Lifetime <br>
+                                Slack chat support
+                            </p>
+
+                            <p class="card-text text-white mt-4 ms-3">
+                                Arse over tit morish wind up gormless butty.!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 my-3">
+                        <div class="hover-card card-body rounded-3 pt-4 pb-5 h-100" style="background-color: #0CAE74;">
+                            <div style="font-size: 50px;">
+                                <img src="images/card4 image.png" class="img-fluid mb-4 ms-3" height="50px" width="50px"
+                                    alt="">
+                            </div>
+
+                            <p class="card-title text-white fw-bold h5 my-4 ms-3">
+                                Research <br>
+                                and Innovation
+                            </p>
+
+                            <p class="card-text text-white mt-4 ms-3">
+                                Arse over tit morish wind up gormless butty.!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="achive-porsen my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="img-1 text-end pe-5">
+                        <img src="https://bdevs.net/wp/educal/wp-content/uploads/2021/09/about.jpg"
+                            class="img-fluid position-relative w-75 rounded-3" alt="">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="https://bdevs.net/wp/educal/wp-content/uploads/2021/09/about-banner.jpg"
+                                    alt="" class="img-fluid rounded-3 my-3">
+                            </div>
+
+                            <div class="col-md-6 d-flex justify-content-center flex-column">
+                                <div class="img mt-3">
+                                    <img src="https://bdevs.net/wp/educal/wp-content/uploads/2021/09/join1.png" alt=""
+                                        class="img-fluid">
+                                </div>
+
+                                <p class="text-secondary fw-semibold mt-2">
+                                    Join over <span class="text-dark">4,000+</span> students
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex justify-content-center flex-column">
+                    <h1>
+                        Achieve your <br>
+                        <span class="span-bg-image">Goals</span> with Educal
+                    </h1>
+
+                    <p class="text-secondary my-3">
+                        Lost the plot bobby such a fibber bleeding bits and bobs <br> don't get shirty with me bugger
+                        all
+                        mate chinwag super <br> pukka william barney, horse play buggered.
+                    </p>
+
+                    <div class="my-4">
+                        <div class="check-text d-flex">
+                            <div class="check-icon d-flex justify-content-center align-items-center me-2 my-2">
+                                <i class="fa-solid fa-check text-success"></i>
+                            </div>
+
+                            <div class="check-text">
+                                Upskill your organization.
+                            </div>
+                        </div>
+
+                        <div class="check-text d-flex">
+                            <div class="check-icon d-flex justify-content-center align-items-center me-2 my-2">
+                                <i class="fa-solid fa-check text-success"></i>
+                            </div>
+
+                            <div class="check-text">
+                                Access more then 100K online courses
+                            </div>
+                        </div>
+
+                        <div class="check-text d-flex">
+                            <div class="check-icon d-flex justify-content-center align-items-center me-2 my-2">
+                                <i class="fa-solid fa-check text-success"></i>
+                            </div>
+
+                            <div class="check-text">
+                                Learn the latest skills
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="achive-button my-3">
+                        <button class="a-button btn border-2 border-secondary px-3 py-2">
+                            Apply now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabs my-5 py-5" style="background-color: #F3F4F8;">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="fw-bold text-dark">
+                        Find the Right <br>
+                        Online <span class="span-bg-image">Course</span> for you
+                    </h1>
+
+                    <p class="text-secondary">
+                        You don't have to struggle alone, you've got our assistance and help.
+                    </p>
+                </div>
+
+                <div class="col-md-6 align-content-end pb-3">
+                    <ul class="nav nav-pills justify-content-end">
+                        <li class="nav-item text-end d-flex justify-content-end">
+                            <a href="#see" data-bs-toggle="pill"
+                                class="nav-link fw-semibold active position-relative">See
+                                All <span class="badge bg-primary text-white position-absolute"
+                                    style="top: -10px;left: 0;transform: translateX(17px);">New</span>
+                            </a>
+                        </li>
+                        <li class="nav-item text-end d-flex justify-content-end"><a href="#trend" data-bs-toggle="pill"
+                                class="nav-link fw-semibold">Trending</a>
+                        </li>
+                        <li class="nav-item text-end d-flex justify-content-end"><a href="#popularty"
+                                data-bs-toggle="pill" class="nav-link fw-semibold">Popularity</a></li>
+                        <li class="nav-item text-end d-flex justify-content-end"><a href="#featured"
+                                data-bs-toggle="pill" class="nav-link fw-semibold">Featured</a></li>
+                        <li class="nav-item text-end d-flex justify-content-end"><a href="#art" data-bs-toggle="pill"
+                                class="nav-link fw-semibold">Art <span></span>& Design</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tab-content mt-5">
+                <div class="tab-pane active" id="see">
+                    <div class="row">
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-1.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">43
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.5 (44)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">Become a product Manager learn
+                                        <br> the skills <span></span>& job.</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://html.hixstudio.net/educal/educal/assets/img/course/teacher/teacher-1.jpg"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Jim Séchen</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        Free
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-2.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">72
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.5 (44)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">Fundamentals of music theory
+                                        <br> Learn new</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://html.hixstudio.net/educal/educal/assets/img/course/teacher/teacher-2.jpg"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Barry Tone</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        $32.00 <span
+                                            class="small text-decoration-line-through text-secondary">125.00</span>
+
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-3.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">14
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">3.5 (55)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">Strategy law and organization
+                                        <br> Foundation</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://html.hixstudio.net/educal/educal/assets/img/course/teacher/teacher-5.jpg"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Lewis</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-success h5 fw-semibold pt-2">
+                                        $46.00 <span
+                                            class="small text-decoration-line-through text-secondary">68.00</span>
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-6.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">10
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.67 (9)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">The Power of Podcast for
+                                        <br> Storytelling</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://secure.gravatar.com/avatar/869616d65d78a6cf40fd39a6ed8a1f07?s=50&d=mm&r=g"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Lewis</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        $75.00
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-4.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">10
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.67 (9)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">The Power of Podcast for
+                                        <br> Storytelling</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://secure.gravatar.com/avatar/869616d65d78a6cf40fd39a6ed8a1f07?s=50&d=mm&r=g"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Lewis</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        $75.00
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-5.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">10
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.67 (9)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">The Power of Podcast for
+                                        <br> Storytelling</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://secure.gravatar.com/avatar/869616d65d78a6cf40fd39a6ed8a1f07?s=50&d=mm&r=g"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Lewis</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        $75.00
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="trend">
+                    <div class="row">
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-1.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">43
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.5 (44)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">Become a product Manager learn
+                                        <br> the skills <span></span>& job.</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://html.hixstudio.net/educal/educal/assets/img/course/teacher/teacher-1.jpg"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Jim Séchen</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        Free
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-4.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">72
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.5 (44)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">Fundamentals of music theory
+                                        <br> Learn new</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://html.hixstudio.net/educal/educal/assets/img/course/teacher/teacher-2.jpg"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Barry Tone</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        $32.00 <span
+                                            class="small text-decoration-line-through text-secondary">125.00</span>
+
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-5.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">14
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">3.5 (55)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">Strategy law and organization
+                                        <br> Foundation</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://html.hixstudio.net/educal/educal/assets/img/course/teacher/teacher-5.jpg"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Lewis</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-success h5 fw-semibold pt-2">
+                                        $46.00 <span
+                                            class="small text-decoration-line-through text-secondary">68.00</span>
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="popularty">
+                    <div class="row">
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-1.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">43
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.5 (44)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">Become a product Manager learn
+                                        <br> the skills <span></span>& job.</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://html.hixstudio.net/educal/educal/assets/img/course/teacher/teacher-1.jpg"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Jim Séchen</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        Free
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-2.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">72
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.5 (44)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">Fundamentals of music theory
+                                        <br> Learn new</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://html.hixstudio.net/educal/educal/assets/img/course/teacher/teacher-2.jpg"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Barry Tone</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        $32.00 <span
+                                            class="small text-decoration-line-through text-secondary">125.00</span>
+
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-3.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">14
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">3.5 (55)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">Strategy law and organization
+                                        <br> Foundation</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://html.hixstudio.net/educal/educal/assets/img/course/teacher/teacher-5.jpg"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Lewis</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-success h5 fw-semibold pt-2">
+                                        $46.00 <span
+                                            class="small text-decoration-line-through text-secondary">68.00</span>
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-6.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">10
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.67 (9)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">The Power of Podcast for
+                                        <br> Storytelling</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://secure.gravatar.com/avatar/869616d65d78a6cf40fd39a6ed8a1f07?s=50&d=mm&r=g"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Lewis</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        $75.00
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="featured">
+                    <div class="row">
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-2.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">72
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.5 (44)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">Fundamentals of music theory
+                                        <br> Learn new</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://html.hixstudio.net/educal/educal/assets/img/course/teacher/teacher-2.jpg"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Barry Tone</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        $32.00 <span
+                                            class="small text-decoration-line-through text-secondary">125.00</span>
+
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-3.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">14
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">3.5 (55)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">Strategy law and organization
+                                        <br> Foundation</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://html.hixstudio.net/educal/educal/assets/img/course/teacher/teacher-5.jpg"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Lewis</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-success h5 fw-semibold pt-2">
+                                        $46.00 <span
+                                            class="small text-decoration-line-through text-secondary">68.00</span>
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-4.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">10
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.67 (9)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">The Power of Podcast for
+                                        <br> Storytelling</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://secure.gravatar.com/avatar/869616d65d78a6cf40fd39a6ed8a1f07?s=50&d=mm&r=g"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Lewis</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        $75.00
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-6.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">10
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.67 (9)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">The Power of Podcast for
+                                        <br> Storytelling</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://secure.gravatar.com/avatar/869616d65d78a6cf40fd39a6ed8a1f07?s=50&d=mm&r=g"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Lewis</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        $75.00
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="art">
+                    <div class="row">
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-2.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">72
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.5 (44)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">Fundamentals of music theory
+                                        <br> Learn new</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://html.hixstudio.net/educal/educal/assets/img/course/teacher/teacher-2.jpg"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Barry Tone</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        $32.00 <span
+                                            class="small text-decoration-line-through text-secondary">125.00</span>
+
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-3.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">14
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">3.5 (55)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">Strategy law and organization
+                                        <br> Foundation</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://html.hixstudio.net/educal/educal/assets/img/course/teacher/teacher-5.jpg"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Lewis</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-success h5 fw-semibold pt-2">
+                                        $46.00 <span
+                                            class="small text-decoration-line-through text-secondary">68.00</span>
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-4.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">10
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.67 (9)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">The Power of Podcast for
+                                        <br> Storytelling</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://secure.gravatar.com/avatar/869616d65d78a6cf40fd39a6ed8a1f07?s=50&d=mm&r=g"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Lewis</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        $75.00
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="card overflow-hidden border-0">
+                                <div class="card-image overflow-hidden">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/course/course-5.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between" style="font-size: 17px;">
+                                        <div class="icon-with-text">
+                                            <i class="fa-solid fa-book" style="color: #53545b;"></i> <span
+                                                class="text-secondary">10
+                                                lessons</span>
+                                        </div>
+
+                                        <div class="star-with-rate">
+                                            <i class="fa-solid fa-star" style="color: #ff9415;"></i> <span
+                                                class="text-secondary">4.67 (9)</span>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <a href="#" class="h5 text-dark text-decoration-none">The Power of Podcast for
+                                        <br> Storytelling</a>
+
+                                    <div class="d-flex mt-4 align-items-center ">
+                                        <img src="https://secure.gravatar.com/avatar/869616d65d78a6cf40fd39a6ed8a1f07?s=50&d=mm&r=g"
+                                            alt="" class="img-fluid rounded-circle small"> <a href="#"
+                                            class="text-decoration-none text-secondary ms-3 fw-semibold">Lewis</a>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex justify-content-between align-items-center"
+                                    style="background-color: transparent;">
+                                    <div class="rate text-primary h5 fw-semibold pt-2">
+                                        $75.00
+                                    </div>
+
+                                    <a href="#">
+                                        <button class="btn" style="font-size: 17px;">
+                                            Know Details <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skilline my-5 py-5">
+        <div class="container text-center">
+            <h1 class="title display-5 fw-bold">
+                What is <span class="span-bg-image">Skilline?</span>
+            </h1>
+
+            <p class="text-secondary mb-4">
+                Sloshed faff about me old mucker blatant bubble and squeak hanky panky <br> some dodgy chav bevvy arse
+                chimney pot I, ruddy plastered buggered <br> smashing blow off I'm telling up the kyver he legged it
+                bleeder
+                jolly good,
+            </p>
+
+            <div class="row justify-content-center">
+                <div class="col-md-5 rounded-3 p-0 background-image-1 mx-3 my-2">
+                    <div class="my-3 d-flex align-items-center justify-content-center flex-column pt-5">
+                        <p class="h3 fw-bold text-white mb-0">
+                            Become
+                        </p>
+
+                        <p class="h3 fw-bold text-white mb-3 p-0">
+                            and Instroctor
+                        </p>
+
+                        <button class="btn text-dark bg-white mt-0 mb-5">
+                            Start a class today
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-md-5 rounded-3 p-0 background-image-2 mx-3 my-2">
+                    <div class="my-3 d-flex align-items-center justify-content-center flex-column pt-5">
+                        <p class="h3 fw-bold text-white mb-0">
+                            Mostly
+                        </p>
+
+                        <p class="h3 fw-bold text-white mb-3 p-0">
+                            Online Learning
+                        </p>
+
+                        <button class="btn text-dark bg-white mt-0 mb-5">
+                            Start teaching
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="choose-porsen my-5 py-5">
+        <div class="container">
+            <div class="row px-5">
+                <div class="col-md-5 align-content-center ps-5 my-3">
+                    <p class="text-primary fw-semibold text-capitalize" style="font-size: 19px;">
+                        why choose me
+                    </p>
+
+                    <h1 class="fw-bold text-capitalize">
+                        tools for <span class="span-bg-image">teachers</span> <br>
+                        and learners
+                    </h1>
+
+                    <p class="text-secondary">
+                        Oxford chimney pot Eaton faff about blower blatant brilliant, bubble and squeak he legged it
+                        Charles bonnet arse at public school bamboozled.
+                    </p>
+
+                    <div class="choose-buttons">
+                        <button class="btn btn-primary btn-lg fw-semibold px-3 py-2">
+                            Join for free
+                        </button>
+
+                        <button class="btn btn-lg px-3 py-2 text-capitalize ms-3">
+                            learn more <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-md-7">
+                    <img src="https://bdevs.net/wp/educal/wp-content/uploads/2021/12/me-min.png" class="img-fluid"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="proud my-5 py-5">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="title display-5 fw-bold">
+                    We Are <span class="span-bg-image">Proud</span>
+                </h1>
+
+                <p class="text-secondary">
+                    You don't have to struggle alone, you've got our assistance and help.
+                </p>
+
+                <div class="row mt-5 px-5">
+                    <div class="col-lg-3 col-md-6 text-start">
+                        <img src="images/users.png" width="40" class="img-fluid" alt="">
+
+                        <h4 class="rate mb-0 mt-2">
+                            345421
+                        </h4>
+
+                        <p class="text-secondary">
+                            Student Enrolled
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-start">
+                        <img src="images/book.png" width="40" class="img-fluid" alt="">
+
+                        <h4 class="rate mb-0 mt-2">
+                            2485
+                        </h4>
+
+                        <p class="text-secondary">
+                            Total Course
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-start">
+                        <img src="images/degree.png" width="40" class="img-fluid" alt="">
+
+                        <h4 class="rate mb-0 mt-2">
+                            24085
+                        </h4>
+
+                        <p class="text-secondary">
+                            Online Learners
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-start">
+                        <img src="images/world map.png" width="40" class="img-fluid" alt="">
+
+                        <h4 class="rate mb-0 mt-2">
+                            203k
+                        </h4>
+
+                        <p class="text-secondary">
+                            Foreign Followers
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper-slider-porsen my-5 py-5">
+        <div class="container">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide d-block">
+                        <div class="image">
+                            <img src="https://html.hixstudio.net/educal/educal/assets/img/testimonial/testi-1.jpg"
+                                class="img-fluid rounded-circle img" style="width: 100px;" alt="">
+                        </div>
+
+                        <h2 class="my-4 text-white">
+                            <i>"</i> Barmy loo sloshed porkiesdo with me <br>
+                            down the pub say bubble and squeak. <i>"</i>
+                        </h2>
+                        <p class="lead fw-bold mt-3 mb-0 text-white">
+                            Jason Response
+                        </p>
+                        <p class="mt-2 text-white">
+                            UX Designer
+                        </p>
+                    </div>
+
+                    <div class="swiper-slide d-block">
+                        <div class="image">
+                            <img src="https://html.hixstudio.net/educal/educal/assets/img/testimonial/testi-1.jpg"
+                                class="img-fluid rounded-circle img" style="width: 100px;" alt="">
+                        </div>
+
+                        <h2 class="my-4 text-white">
+                            <i>"</i> Barmy loo sloshed porkiesdo with me <br>
+                            down the pub say bubble and squeak. <i>"</i>
+                        </h2>
+                        <p class="lead fw-bold mt-3 mb-0 text-white">
+                            Jason Response
+                        </p>
+                        <p class="mt-2 text-white">
+                            UX Designer
+                        </p>
+                    </div>
+
+                    <div class="swiper-slide d-block text-center">
+                        <div class="image">
+                            <img src="https://html.hixstudio.net/educal/educal/assets/img/testimonial/testi-1.jpg"
+                                class="img-fluid rounded-circle img" style="width: 100px;" alt="">
+                        </div>
+
+                        <h2 class="my-4 text-white">
+                            <i>"</i> Barmy loo sloshed porkiesdo with me <br>
+                            down the pub say bubble and squeak. <i>"</i>
+                        </h2>
+                        <p class="lead fw-bold mt-3 mb-0 text-white">
+                            Jason Response
+                        </p>
+                        <p class="mt-2 text-white">
+                            UX Designer
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="share-card-porsen my-5 py-5">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="title display-5 fw-bold">
+                    We Share <br>
+                    Our <span class="span-bg-image">Thoughts</span> On Design
+                </h1>
+
+                <p class="text-secondary">
+                    You don't have to struggle alone, you've got our assistance and help.
+                </p>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-4 my-3">
+                    <div class="card overflow-hidden border-0">
+                        <div class="card-image overflow-hidden">
+                            <img src="https://html.hixstudio.net/educal/educal/assets/img/blog/blog-1.jpg"
+                                class="img-fluid" alt="">
+                        </div>
+
+                        <div class="card-body p-4">
+                            <button class="btn btn-outline-primary btn-sm d-block mb-3">
+                                Art <span></span>& Design
+                            </button>
+
+                            <a href="#" class="lead mt-5 fw-bold text-dark text-decoration-none">
+                                The Challenge Of Global <br> Learning In Public Education
+                            </a>
+
+                            <div class="d-flex justify-content-between mt-5">
+                                <div class="img-name d-flex align-items-center">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/blog/author/author-1.jpg"
+                                        class="rounded-circle img-fluid" alt="">
+                                    <span class="text-secondary ms-3 fw-semibold">
+                                        Jim Sechen
+                                    </span>
+                                </div>
+
+                                <div class="time-location d-flex align-items-center">
+                                    <i class="fa-regular fa-clock text-secondary" style="font-size: 25px;"></i>
+                                    <span class="text-secondary fw-semibold ms-3">
+                                        April 02, 2022
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3">
+                    <div class="card overflow-hidden border-0">
+                        <div class="card-image overflow-hidden">
+                            <img src="https://html.hixstudio.net/educal/educal/assets/img/blog/blog-2.jpg"
+                                class="img-fluid" alt="">
+                        </div>
+
+                        <div class="card-body p-4">
+                            <button class="btn btn-outline-success btn-sm d-block mb-3">
+                                Marketing
+                            </button>
+
+                            <a href="#" class="lead mt-5 fw-bold text-dark text-decoration-none">
+                                Exactly How Technology Can <br> Make Reading Better
+                            </a>
+
+                            <div class="d-flex justify-content-between mt-5">
+                                <div class="img-name d-flex align-items-center">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/blog/author/author-2.jpg"
+                                        class="rounded-circle img-fluid" alt="">
+                                    <span class="text-secondary ms-3 fw-semibold">
+                                        Barry Tone
+                                    </span>
+                                </div>
+
+                                <div class="time-location d-flex align-items-center">
+                                    <i class="fa-regular fa-clock text-secondary" style="font-size: 25px;"></i>
+                                    <span class="text-secondary fw-semibold ms-3">
+                                        July 02, 2022
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3">
+                    <div class="card overflow-hidden border-0">
+                        <div class="card-image overflow-hidden">
+                            <img src="https://html.hixstudio.net/educal/educal/assets/img/blog/blog-3.jpg"
+                                class="img-fluid" alt="">
+                        </div>
+
+                        <div class="card-body p-4">
+                            <button class="btn btn-outline-danger btn-sm d-block mb-3">
+                                UX Design
+                            </button>
+
+                            <a href="#" class="lead mt-5 fw-bold text-dark text-decoration-none">
+                                New Chicago School Budget <br> Relies On State Pension
+                            </a>
+
+                            <div class="d-flex justify-content-between mt-5">
+                                <div class="img-name d-flex align-items-center">
+                                    <img src="https://html.hixstudio.net/educal/educal/assets/img/blog/author/author-3.jpg"
+                                        class="rounded-circle img-fluid" alt="">
+                                    <span class="text-secondary ms-3 fw-semibold">
+                                        July Tone
+                                    </span>
+                                </div>
+
+                                <div class="time-location d-flex align-items-center">
+                                    <i class="fa-regular fa-clock text-secondary" style="font-size: 25px;"></i>
+                                    <span class="text-secondary fw-semibold ms-3">
+                                        July 02, 2022
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="download-software py-5 my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 align-content-center">
+                    <h1 class="text-white">
+                        Start learning by <br>
+                        Downloading Apps.
+                    </h1>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                        <a href="#"><button class="btn bg-white btn-lg text-dark mx-2">
+                                <i class="fa-brands fa-apple"></i> Apple Store
+                            </button></a>
+
+                        <a href="#"><button class="btn bg-white btn-lg text-dark mx-2">
+                                <i class="fa-brands fa-google-play"></i> Play Store
+                            </button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div class="top-footer pb-5">
+            <div class="container py-5">
+                <div class="row p-0">
+                    <div class="col-md-4">
+                        <div class="footer-logo mb-4">
+                            <img src="images/header logo.png" alt="">
+                        </div>
+
+                        <p class="text-secondary" style="font-size: 18px;">
+                            Great lesson ideas and lesson plans <br> for ESL teachers! Educators can <br> customize
+                            lesson
+                            plans
+                            to best.
+                        </p>
+
+                        <div class="social-icons d-flex">
+                            <div class="facebook me-3 text-white px-4 py-3 rounded" style="background-color: #285DA1;">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+
+                            <div class="twitter me-3 text-white bg-info px-4 py-3 rounded">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+
+                            <div class="pintrest text-white bg-danger px-4 py-3 rounded">
+                                <i class="fa-brands fa-pinterest-p"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="titl">
+                                    <h5 class="text-dark mb-3 fw-bold">
+                                        Company
+                                    </h5>
+                                </div>
+
+                                <ul class="text-start p-0 lh-lg">
+                                    <li class="nav-item list-unstyled"><a href="pages.html"
+                                            class="nav-link text-secondary fw-normal">About</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Courses</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Events</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Instructor</a>
+                                    </li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Career</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Become a
+                                            Teacher</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Contact</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="titl">
+                                    <h5 class="text-dark mb-3 fw-bold">
+                                        Platform
+                                    </h5>
+                                </div>
+
+                                <ul class="text-start p-0 lh-lg">
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Browse Library</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Library</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Partners</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">News
+                                            <span></span>& Blogs</a>
+                                    </li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">FAQs</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Tutorials</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 footer-form-porsen">
+                        <div class="title mb-3">
+                            <h5 class="fw-bold">
+                                Subscribe
+                            </h5>
+                        </div>
+
+                        <form action="" class="mt-4">
+                            <div class="input-group">
+                                <input type="email" placeholder="Your Email Address" class="form-control p-3">
+                                <button class="btn btn-outline-primary">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </form>
+
+                        <p class="text-secondary mt-4" style="font-weight: 600;">
+                            Get the latest news and updates right <br>
+                            at your inbox
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-footer py-3 border-top d-flex justify-content-center align-items-center">
+            <div class="text-secondary h-100 w-100 d-block text-center">
+                &copy; 2022 Educal, All Rights Reserved. Design By <a href="#"
+                    class="text-decoration-none text-primary fw-semibold">Theme Pure</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>

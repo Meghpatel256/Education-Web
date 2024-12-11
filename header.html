@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        @media (max-width: 768px) {
+            .category {
+                display: none;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .navbar-collapse .align-center {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+            }
+        }
+
+        .align-center {
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg shadow-sm py-2" style="background-color: transparent;">
+        <div class="container">
+            <div class="d-flex">
+                <a href="#">
+                    <img src="images/header logo.png" class="img-fluid" alt="">
+                </a>
+                <button class="category btn border-dark rounded-0 border-top-0 border-end-0 border-bottom-0 ms-3">
+                    <img src="http://127.0.0.1:5502/images/dots-menu.png" class="img-fluid" alt=""> Category
+                </button>
+            </div>
+
+            <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                <i class="fa fa-bars-staggered"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav ms-auto align-center">
+                    <li class="nav-item"><a href="home.html" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="course.html" class="nav-link">Course</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="pages.html" class="nav-link">Pages</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="signup.html" class="nav-link"><button class="btn btn-primary">Sign
+                                up</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

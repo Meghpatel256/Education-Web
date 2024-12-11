@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educal - Online Learning and Education</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            -font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .swiper-slider-porsen {
+            background-image: linear-gradient(rgba(54, 85, 244, 0.8),
+                    rgba(54, 85, 344, 0.8)),
+                url(https://html.hixstudio.net/educal/educal/assets/img/testimonial/testimonial-bg.jpg);
+        }
+
+        .swiper-slide {
+            background-color: transparent;
+            padding-block: 100px;
+        }
+
+        .img {
+            /* border: 1px solid red; */
+            display: block;
+            margin: auto;
+        }
+
+        .nav-link {
+            font-size: 15.5px;
+        }
+
+        @media (max-width: 768px) {
+            .category {
+                display: none;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .navbar-collapse .align-center {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+            }
+        }
+
+        .align-center {
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header-with-banner mb-5">
+        <nav class="navbar navbar-expand-lg py-2" style="background-color: transparent;">
+            <div class="container">
+                <div class="d-flex">
+                    <a href="home.html">
+                        <img src="https://html.hixstudio.net/educal/educal/assets/img/logo/logo-2.png" class="img-fluid"
+                            alt="">
+                    </a>
+                    <a href="course.html"><button
+                            class="category text-white btn border-secondary rounded-0 border-top-0 border-end-0 border-bottom-0 ms-3 fw-semibold">
+                            <img src="http://127.0.0.1:5502/images/dots-menu 2.png" class="img-fluid" alt=""> Category
+                        </button>
+                    </a>
+                </div>
+
+                <button class="navbar-toggler text-white" data-bs-target="#menu" data-bs-toggle="collapse">
+                    <i class="fa fa-bars-staggered"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="nav navbar-nav ms-auto align-center">
+                        <li class="nav-item"><a href="home.html" class="nav-link text-white active fw-semibold">Home</a>
+                        </li>
+                        <li class="nav-item"><a href="course.html" class="nav-link text-white fw-semibold">Course</a>
+                        </li>
+                        <li class="nav-item"><a href="blog.html" class="nav-link text-white fw-semibold">Blog</a></li>
+                        <li class="nav-item"><a href="pages.html" class="nav-link text-white fw-semibold">Pages</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link text-white fw-semibold">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="input-group">
+                                <button type="search" class="input-group-text bg-white border-0"><i
+                                        class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                                <input type="search" class="form-control border-start-0" placeholder="Search...">
+                                <label for="" class="input-group-text">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="#n" class="nav-link"><button class="btn btn-primary">Try
+                                    for free</button></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner-details py-5 my-5">
+            <div class="container py-5">
+                <h1 class="text-white fw-bold display-3">About</h1>
+
+                <ul class="breadcrumb fw-semibold">
+                    <li class="breadcrumb-item"><a href="home.html" class="text-decoration-none text-white">Home</a>
+                    </li>
+                    <li class="breadcrumb-item text-white">About</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="achive-porsen my-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="img-1 text-end pe-5">
+                        <img src="https://bdevs.net/wp/educal/wp-content/uploads/2021/09/about.jpg"
+                            class="img-fluid position-relative w-75 rounded-3" alt="">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="https://bdevs.net/wp/educal/wp-content/uploads/2021/09/about-banner.jpg"
+                                    alt="" class="img-fluid rounded-3 my-3">
+                            </div>
+
+                            <div class="col-md-6 d-flex justify-content-center flex-column">
+                                <div class="img mt-3">
+                                    <img src="https://bdevs.net/wp/educal/wp-content/uploads/2021/09/join1.png" alt=""
+                                        class="img-fluid">
+                                </div>
+
+                                <p class="text-secondary fw-semibold mt-2">
+                                    Join over <span class="text-dark">4,000+</span> students
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex justify-content-center flex-column">
+                    <h1>
+                        Achieve your <br>
+                        <span class="span-bg-image">Goals</span> with Educal
+                    </h1>
+
+                    <p class="text-secondary my-3">
+                        Lost the plot bobby such a fibber bleeding bits and bobs <br> don't get shirty with me bugger
+                        all
+                        mate chinwag super <br> pukka william barney, horse play buggered.
+                    </p>
+
+                    <div class="my-4">
+                        <div class="check-text d-flex">
+                            <div class="check-icon d-flex justify-content-center align-items-center me-2 my-2">
+                                <i class="fa-solid fa-check text-success"></i>
+                            </div>
+
+                            <div class="check-text">
+                                Upskill your organization.
+                            </div>
+                        </div>
+
+                        <div class="check-text d-flex">
+                            <div class="check-icon d-flex justify-content-center align-items-center me-2 my-2">
+                                <i class="fa-solid fa-check text-success"></i>
+                            </div>
+
+                            <div class="check-text">
+                                Access more then 100K online courses
+                            </div>
+                        </div>
+
+                        <div class="check-text d-flex">
+                            <div class="check-icon d-flex justify-content-center align-items-center me-2 my-2">
+                                <i class="fa-solid fa-check text-success"></i>
+                            </div>
+
+                            <div class="check-text">
+                                Learn the latest skills
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="achive-button my-3">
+                        <button class="a-button btn border-2 border-secondary px-3 py-2">
+                            Apply now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="trusted-porsen my-5 py-5">
+        <div class="container">
+            <h4 class="text-center">
+                Trusted by 100 world's best companies
+            </h4>
+
+            <div class="my-5">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="images/brand-1.png" class="img-fluid mx-5" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/brand-2.png" class="img-fluid mx-5" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/brand-3.png" class="img-fluid mx-5" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/brand-4.png" class="img-fluid mx-5" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/brand-5.png" class="img-fluid mx-5" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/brand-6.png" class="img-fluid mx-5" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/brand-1.png" class="img-fluid mx-5" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/brand-2.png" class="img-fluid mx-5" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/brand-3.png" class="img-fluid mx-5" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/brand-4.png" class="img-fluid mx-5" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/brand-5.png" class="img-fluid mx-5" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/brand-6.png" class="img-fluid mx-5" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center">
+                <button class="btn fw-semibold">
+                    View all partners <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="community-porsen py-5 my-5">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-white mb-0 fw-semibold">
+                        Student
+                    </h1>
+
+                    <h1 class="text-white fw-semibold">
+                        Community Feedback
+                    </h1>
+
+                    <h3 class="text-white m-0 p-0">
+                        <div class="swiper mySwiper my-3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide d-block m-0 p-0">
+                                    <h4 class="text-white" style="text-align: justify;line-height: 40px;">
+                                        "After I started learning design with Quillow, I
+                                        realized that I had improved to very advanced
+                                        levels. While I am studying at my university, I design
+                                        as an aditional income and I am sure that I will do
+                                        this professionaly."
+                                    </h4>
+
+                                    <h4 class="m-0 text-start">
+                                        James Lee, <span style="color: #E2ECE9;" class="fw-normal small">Student @Educal
+                                            University</span>
+                                    </h4>
+                                </div>
+
+                                <div class="swiper-slide d-block p-0">
+                                    <h4 class="text-white" style="text-align: justify;line-height: 40px;">
+                                        "After I started learning design with Quillow, I
+                                        realized that I had improved to very advanced
+                                        levels. While I am studying at my university, I design
+                                        as an aditional income and I am sure that I will do
+                                        this professionaly."
+                                    </h4>
+
+                                    <h4 class="m-0 text-start">
+                                        James Lee, <span style="color: #E2ECE9;" class="fw-normal small">Student @Educal
+                                            University</span>
+                                    </h4>
+                                </div>
+
+                                <div class="swiper-slide d-block p-0">
+                                    <h4 class="text-white" style="text-align: justify;line-height: 40px;">
+                                        "After I started learning design with Quillow, I
+                                        realized that I had improved to very advanced
+                                        levels. While I am studying at my university, I design
+                                        as an aditional income and I am sure that I will do
+                                        this professionaly."
+                                    </h4>
+
+                                    <h4 class="m-0 text-start">
+                                        James Lee, <span style="color: #E2ECE9;" class="fw-normal small">Student @Educal
+                                            University</span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </h3>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card overflow-hidden border-0">
+                        <iframe width="476" height="300" src="https://www.youtube.com/embed/Rr0uFzAOQus"
+                            title="Learn ABCs with Morphle and Mila | Learning Videos | Cartoons for Kids | Morphle TV"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-100"></iframe>
+
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="check-icon rounded-circle bg-primary p-4 text-white me-4">
+                                    <i class="fa-regular fa-circle-check m-0 p-0" style="font-size: 25px;"></i>
+                                </div>
+
+                                <div class="title-paragraph">
+                                    <h4 class="card-title">
+                                        Course Outcome
+                                    </h4>
+
+                                    <p class="card-text">
+                                        Faff about A bit of how's your father getmate cack codswallop crikey argy-bargy
+                                        cobblers lost his bottle.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="choose-porsen my-5 py-5">
+        <div class="container">
+            <div class="row px-5">
+                <div class="col-md-5 align-content-center ps-5 my-3">
+                    <p class="text-primary fw-semibold text-capitalize" style="font-size: 19px;">
+                        why choose me
+                    </p>
+
+                    <h1 class="fw-bold text-capitalize">
+                        tools for <span class="span-bg-image">teachers</span> <br>
+                        and learners
+                    </h1>
+
+                    <p class="text-secondary">
+                        Oxford chimney pot Eaton faff about blower blatant brilliant, bubble and squeak he legged it
+                        Charles bonnet arse at public school bamboozled.
+                    </p>
+
+                    <div class="choose-buttons">
+                        <button class="btn btn-primary btn-lg fw-semibold px-3 py-2">
+                            Join for free
+                        </button>
+
+                        <button class="btn btn-lg px-3 py-2 text-capitalize ms-3">
+                            learn more <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-md-7">
+                    <img src="https://bdevs.net/wp/educal/wp-content/uploads/2021/12/me-min.png" class="img-fluid"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="proud my-5 py-5">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="title display-5 fw-bold">
+                    We Are <span class="span-bg-image">Proud</span>
+                </h1>
+
+                <p class="text-secondary">
+                    You don't have to struggle alone, you've got our assistance and help.
+                </p>
+
+                <div class="row mt-5 px-5">
+                    <div class="col-lg-3 col-md-6 text-start">
+                        <img src="images/users.png" width="40" class="img-fluid" alt="">
+
+                        <h4 class="rate mb-0 mt-2">
+                            345421
+                        </h4>
+
+                        <p class="text-secondary">
+                            Student Enrolled
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-start">
+                        <img src="images/book.png" width="40" class="img-fluid" alt="">
+
+                        <h4 class="rate mb-0 mt-2">
+                            2485
+                        </h4>
+
+                        <p class="text-secondary">
+                            Total Course
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-start">
+                        <img src="images/degree.png" width="40" class="img-fluid" alt="">
+
+                        <h4 class="rate mb-0 mt-2">
+                            24085
+                        </h4>
+
+                        <p class="text-secondary">
+                            Online Learners
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-start">
+                        <img src="images/world map.png" width="40" class="img-fluid" alt="">
+
+                        <h4 class="rate mb-0 mt-2">
+                            203k
+                        </h4>
+
+                        <p class="text-secondary">
+                            Foreign Followers
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-porsen my-5">
+        <div class="container">
+            <div class="row justify-content-evenly">
+                <div class="col-md-5 rounded banner-1 my-3" style="padding-block: 40px;padding-inline: 20px;">
+                    <div class="d-flex">
+                        <div class="content">
+                            <button class="btn text-white rounded-pill btn-sm p-0 px-2"
+                                style="background-color: #FC4389;">
+                                Free
+                            </button>
+
+                            <a href="#" class="text-decoration-none text-dark fw-bold d-block my-3"
+                                style="font-size: 20px;">
+                                Germany Foundation
+                                Document
+                            </a>
+
+                            <button class="btn btn-primary px-3 btn-sm">
+                                View Courses
+                            </button>
+                        </div>
+
+                        <div class="image d-flex justify-content-center align-items-end">
+                            <img src="https://html.hixstudio.net/educal/educal/assets/img/banner/banner-img-1.png"
+                                class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-5 p-4 rounded banner-2 my-3">
+                    <div class="d-flex">
+                        <div class="content">
+                            <button class="btn text-white rounded-pill btn-sm p-0 px-2"
+                                style="background-color: #FF652E;">
+                                New
+                            </button>
+
+                            <a href="#" class="text-decoration-none text-dark fw-bold d-block my-3"
+                                style="font-size: 20px;">
+                                Online Course From Eduka University
+                            </a>
+
+                            <button class="btn btn-primary px-3 btn-sm">
+                                View Courses
+                            </button>
+                        </div>
+
+                        <div class="image d-flex justify-content-center align-items-end">
+                            <img src="https://html.hixstudio.net/educal/educal/assets/img/banner/banner-img-2.png"
+                                class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer mt-5" style="background-color: #0C0F32;">
+
+        <div class="top-footer pb-5">
+            <div class="container py-5">
+                <div class="row p-0">
+                    <div class="col-md-4">
+                        <div class="footer-logo mb-4">
+                            <img src="https://html.hixstudio.net/educal/educal/assets/img/logo/logo-2.png" alt="">
+                        </div>
+
+                        <p class="text-secondary" style="font-size: 18px;">
+                            Great lesson ideas and lesson plans <br> for ESL teachers! Educators can <br> customize
+                            lesson
+                            plans
+                            to best.
+                        </p>
+
+                        <div class="social-icons d-flex">
+                            <div class="facebook me-3 text-white px-4 py-3 rounded" style="background-color: #285DA1;">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+
+                            <div class="twitter me-3 text-white bg-info px-4 py-3 rounded">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+
+                            <div class="pintrest text-white bg-danger px-4 py-3 rounded">
+                                <i class="fa-brands fa-pinterest-p"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="titl">
+                                    <h5 class="text-white mb-3 fw-bold">
+                                        Company
+                                    </h5>
+                                </div>
+
+                                <ul class="text-start p-0 lh-lg">
+                                    <li class="nav-item list-unstyled"><a href="pages.html"
+                                            class="nav-link text-secondary fw-normal">About</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Courses</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Events</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Instructor</a>
+                                    </li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Career</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Become a
+                                            Teacher</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Contact</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="titl">
+                                    <h5 class="text-white mb-3 fw-bold">
+                                        Platform
+                                    </h5>
+                                </div>
+
+                                <ul class="text-start p-0 lh-lg">
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Browse Library</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Library</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Partners</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">News
+                                            <span></span>& Blogs</a>
+                                    </li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">FAQs</a></li>
+                                    <li class="nav-item list-unstyled"><a href="#"
+                                            class="nav-link text-secondary fw-normal">Tutorials</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 footer-form-porsen">
+                        <div class="title mb-3">
+                            <h5 class="fw-bold text-white">
+                                Subscribe
+                            </h5>
+                        </div>
+
+                        <form action="" class="mt-4">
+                            <div class="input-group">
+                                <input type="email" placeholder="Your Email Address" class="form-control p-3">
+                                <button class="btn btn-outline-primary">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </form>
+
+                        <p class="text-secondary mt-4" style="font-weight: 600;">
+                            Get the latest news and updates right <br>
+                            at your inbox
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-footer py-3 border-top d-flex justify-content-center align-items-center">
+            <div class="text-secondary h-100 w-100 d-block text-center">
+                &copy; 2022 Educal, All Rights Reserved. Design By <a href="#"
+                    class="text-decoration-none text-primary fw-semibold">Theme Pure</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 120,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 1100,
+            stagePadding: 50,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 6
+                },
+                1000: {
+                    items: 6
+                },
+                1400: {
+                    items: 6
+                }
+            }
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
